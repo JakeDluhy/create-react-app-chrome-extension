@@ -2,13 +2,11 @@
   "name": "create-react-app-chrome-extension",
   "version": "0.1.0",
   "description": "Turn a basic create-react-app application into a chrome extension with one line.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">=4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JakeDluhy/create-react-app-chrome-extension.git"
+  "bin": {
+    "create-react-app-chrome-extension": "./index.js"
   },
   "keywords": [
     "create-react-app",
@@ -17,9 +15,16 @@
     "extension"
   ],
   "author": "Jake Dluhy",
-  "license": "ISC",
+  "repository": "JakeDluhy/create-react-app-chrome-extension",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JakeDluhy/create-react-app-chrome-extension/issues"
   },
-  "homepage": "https://github.com/JakeDluhy/create-react-app-chrome-extension#readme"
+  "homepage": "https://github.com/JakeDluhy/create-react-app-chrome-extension#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.1",
+    "fs-extra": "^5.0.0",
+    "prompt-confirm": "^1.2.0"
+  }
 }
