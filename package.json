@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-chrome-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turn a basic create-react-app application into a chrome extension with one line.",
   "engines": {
     "node": ">=4"
