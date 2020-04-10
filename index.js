@@ -35,7 +35,7 @@ Promise.resolve()
 
   const newManifest = {
     manifest_version: 2,
-    version:          '1.0.0',
+    version:          manifest.version || '1.0.0',
     short_name:       manifest.short_name,
     name:             manifest.name,
     background:       {
